@@ -83,17 +83,19 @@
         </div> -->
       </div>
             </li>
-            <li id="information" class="flex font-medium rounded-[6px]    text-[20px] leading-[1.4rem] relative gap-[3px] cursor-pointer py-3 px-4  w-full font-medium  ">
-              Information
+            <li id="information" class="w-full font-medium rounded-[6px]    text-[20px] leading-[1.4rem] relative gap-[3px] cursor-pointer py-3 px-4  w-full font-medium  ">
+
+              <div class="flex gap-[6px] ">
+              <span>Information</span>
 
               <div
                 class="dropdown-indicator relative top-[20%] size-[6px] bg-black rounded-full"
               ></div>
-
+</div>
 
 
                <div
-        class="information-dropdown  opacity-0 pointer-events-none shadow gap-4 p-[9px] rounded-[6px] flex w-[140px] z-20 bg-white mt-[30px]  absolute left-1/2 -translate-x-1/2"
+        class="information-dropdown w-full mt-4 not-move  bg-red-900 pointer-events-none shadow gap-4 p-[9px] rounded-[6px] flex w-[140px]  bg-white  "
       >
         <ul class="flex-1">
           <li>Style Guide</li>
@@ -157,7 +159,7 @@
               ></div>
 
                 <div
-        class="page-dropdown shadow gap-4 pointer-events-none opacity-0  p-[9px] rounded-[6px] flex w-[600px] z-20 bg-white mt-[50px] absolute left-1/2 -translate-x-1/2"
+class="page-dropdown shadow gap-4  opacity-0 bg-white p-[9px] rounded-[6px] flex w-[600px] !z-[9999] mt-[50px]  absolute left-1/2 -translate-x-1/2"
       >
         <ul class="flex-1">
           <li>Overview</li>
@@ -224,7 +226,8 @@
             
           </ul>
           
-              <i id="hamburger" class="ri-menu-3-line  text-[24px] p-4"></i>
+              <i id="hamburger" class="ri-menu-3-line  md:hidden  text-[24px] p-4"></i>
+              <i id="closed" class="ri-close-line d-none md:hidden text-[24px] p-4"></i>
             
 
           <div class="nav-right hidden md:flex flex-1 shrink-0  gap-3 justify-end items-center">
@@ -268,7 +271,7 @@
             class="hero-content font-medium flex flex-col items-center gap-6"
           >
             <div
-              class="tagline text-[14px] leading-[20px] opacity-[0.6] font-medium"
+              class="tagline relative z-[-10] text-[14px] leading-[20px] opacity-[0.6] font-medium"
             >
               Welcome to Artifact
             </div>

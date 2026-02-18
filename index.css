@@ -132,7 +132,7 @@ body {
   display:none;
 }
 
-#pages:hover .page-dropdown.not-move{
+#pages:hover .page-dropdown.not-move  , #information:hover .information-dropdown.not-move{
   display:flex;
   transform: translateY(0);
 }
@@ -141,6 +141,8 @@ body {
   transition:  all 0.3s ease-in;
 }
 
+
+.d-none{display: none;}
 
 
 
