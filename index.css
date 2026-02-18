@@ -110,10 +110,11 @@ body {
 }
 
 
-.page-dropdown li:hover , #information li:hover , .slide-menu-frame li:hover{
+.page-dropdown li:hover , #information li:hover , .slide-menu-frame li:hover:not(:last-child){
     background-color: #f6f4f1;
    
 }
+
 #pages .page-dropdown ,#pages .dropdown-indicator, #information  .dropdown-indicator{
   transition: all 0.5s ease-in-out;
 }
