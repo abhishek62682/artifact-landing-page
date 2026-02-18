@@ -1,0 +1,1079 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Home | Artifact Landing Page</title>
+  </head>
+
+  <body>
+    <div class="root">
+    
+
+      <div
+        class="information-dropdown opacity-0 shadow gap-4 p-[9px] rounded-[6px] flex w-fit z-20 bg-white mt-[65px] fixed left-[55%] -translate-x-1/2"
+      >
+        <ul class="flex-1">
+          <li>Style Guide</li>
+          <li>Licenses</li>
+          <li>Changelog</li>
+          <li>More Templates</li>
+        </ul>
+      </div>
+
+      <section class="border-b border-[#0000001a]">
+        <nav
+          class="h-[72px] max-w-8xl mx-auto px-6 flex justify-between items-center"
+        >
+          <div class="flex-1 flex justify-start">
+            <img src="/assets/logo/logo.svg" alt="" />
+          </div>
+
+          <ul class="font-primary flex gap-[36px] text-[14px] leading-[20px ]">
+            <li class="cursor-pointer">Overview</li>
+            <li id="pages" class="cursor-pointer relative  flex gap-[3px]">
+              <span >Pages</span>
+
+              <div
+                class="dropdown-indicator  size-[6px] relative top-[20%] bg-black rounded-full"
+              ></div>
+
+                <div
+        class="page-dropdown shadow gap-4 pointer-events-none opacity-0  p-[9px] rounded-[6px] flex w-[600px] z-20 bg-white mt-[50px] absolute left-1/2 -translate-x-1/2"
+      >
+        <ul class="flex-1">
+          <li>Overview</li>
+          <li>Home 1</li>
+          <li>Home 2</li>
+          <li>Home 3</li>
+          <li>Features 1</li>
+          <li>Features 2</li>
+          <li>Features 3</li>
+          <li>Customers</li>
+        </ul>
+
+        <ul class="flex-1">
+          <li>About 1</li>
+          <li>About 2</li>
+          <li>About 3</li>
+
+          <li>Pricing</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>Legal</li>
+        </ul>
+
+        <div class="page-drop-right space-y-[9px] w-[250px]">
+          <img
+            class="w-full rounded-[6px]"
+            src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67c4dfcbd927573fcfdf76dd_photo-landscape-05.webp"
+            alt=""
+          />
+
+          <div
+            class="page-drop-content space-y-[3px] text-[14px] leading-[20px] font-medium"
+          >
+            <div class="">Purchase Artifact</div>
+            <div class="opacity-[0.6]">
+              An ultra-premium Software, SaaS and Startups template.
+            </div>
+          </div>
+        </div>
+      </div>
+            </li>
+            <li id="information" class="flex relative gap-[3px] cursor-pointer">
+              Information
+
+              <div
+                class="dropdown-indicator relative top-[20%] size-[6px] bg-black rounded-full"
+              ></div>
+
+
+
+               <div
+        class="information-dropdown opacity-0 pointer-events-none shadow gap-4 p-[9px] rounded-[6px] flex w-[140px] z-20 bg-white mt-[30px]  absolute left-1/2 -translate-x-1/2"
+      >
+        <ul class="flex-1">
+          <li>Style Guide</li>
+          <li>Licenses</li>
+          <li>Changelog</li>
+          <li>More Templates</li>
+        </ul>
+      </div>
+            </li>
+            <li class="cursor-pointer">Cart (0)</li>
+          </ul>
+
+          <div class="nav-right flex-1 flex gap-3 justify-end items-center">
+            <div class="px-6">
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.4 2.65601C5.99122 2.65601 2.40002 6.2472 2.40002 10.656C2.40002 15.0648 5.99122 18.656 10.4 18.656C12.3172 18.656 14.0779 17.9752 15.4578 16.8451L20.2344 21.6216C20.3081 21.6984 20.3964 21.7597 20.4941 21.8019C20.5918 21.8442 20.697 21.8665 20.8034 21.8676C20.9098 21.8686 21.0154 21.8485 21.114 21.8082C21.2125 21.768 21.302 21.7085 21.3773 21.6333C21.4525 21.558 21.512 21.4685 21.5523 21.3699C21.5925 21.2714 21.6127 21.1658 21.6116 21.0594C21.6105 20.9529 21.5882 20.8478 21.546 20.7501C21.5037 20.6524 21.4424 20.5641 21.3656 20.4904L16.5891 15.7138C17.7192 14.3339 18.4 12.5732 18.4 10.656C18.4 6.2472 14.8088 2.65601 10.4 2.65601ZM10.4 4.25601C13.9441 4.25601 16.8 7.11191 16.8 10.656C16.8 14.2001 13.9441 17.056 10.4 17.056C6.85593 17.056 4.00002 14.2001 4.00002 10.656C4.00002 7.11191 6.85593 4.25601 10.4 4.25601Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+
+            <button
+              class="border btn-dark cursor-pointer btn-animate font-medium  overflow-hidden font-primary rounded-full text-[14px] leading-[20px] h-[39px] px-6 border-[#0000001a]"
+            >
+              <span class="block h-full flex justify-center items-center shrink-0">Templates</span>
+              <span class="block h-full flex justify-center items-center ">Templates</span>
+            </button>
+
+            <button
+              class="text-[14px]  btn-animate cursor-pointer font-medium font-primary rounded-full text-white leading-[20px] border text-[14px] h-[39px] px-[18px] bg-black"
+            >
+
+              <span class="block h-full flex justify-center items-center shrink-0">Buy Artifact</span>
+              <span class="block h-full flex justify-center items-center shrink-0">Buy Artifact</span>
+              
+            </button>
+          </div>
+        </nav>
+      </section>
+
+      <section class="section-spacing-y">
+        <div class="max-w-8xl space-y-[72px] container hero-frame">
+          <div
+            class="hero-content font-medium flex flex-col items-center gap-6"
+          >
+            <div
+              class="tagline text-[14px] leading-[20px] opacity-[0.6] font-medium"
+            >
+              Welcome to Artifact
+            </div>
+
+            <h2 class="text-[56px] text-center leading-[62px]">
+              The fast way to an <br />
+              expensive-looking site
+            </h2>
+
+            <p class="text-center leading-[24px] text-[17px]">
+              Artifact is a premium software and SaaS template designed for SaaS
+              startups, <br />
+              software companies, cloud AI tools and more.
+            </p>
+
+            <button
+              class="text-[14px] btn-animate border-black font-medium font-primary rounded-full text-white leading-[24px] border text-[17px] h-[50px] px-[18px] bg-black"
+            >
+             <span class="block h-full flex justify-center items-center shrink-0">Buy Artifact</span><span class="block h-full flex justify-center items-center shrink-0">Buy Artifact</span>
+            </button>
+
+            <div class="flex items-center gap-[6px] opacity-[0.5] gap-2">
+              <span class="text-[14px] leading-[20px]"> Medium Rare </span>
+
+              <div class="flex">
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+              </div>
+
+              <span class="text-[14px] leading-[20px]"> 200+ Reviews </span>
+            </div>
+          </div>
+
+          <div
+            class="project-showecase mx-auto gap-[6px] w-full grid grid-cols-12"
+          >
+            <div
+              class="w-full h-[458px] overflow-hidden rounded-[12px] bg-red-900 col-span-6"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="https://i.pinimg.com/1200x/d0/1e/f0/d01ef0b36fc7a32c0a51907aebb749b5.jpg"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="w-full h-[458px] overflow-hidden rounded-[12px] bg-red-900 col-span-6"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="https://i.pinimg.com/1200x/90/13/d5/9013d57e28c9f45a335bd16ea888ef3b.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="w-full section-spacing vertical-layout-gap">
+            <div class="w-full flex items-start flex-col gap-5">
+              <div
+                class="section-content font-medium text-[40px] max-w-6/10 leading-[46px]"
+              >
+                All killer, no filler.
+                <span class="faded-text"
+                  >Artifact is brimming with premium layouts and sections
+                  designed with true purpose.</span
+                >
+                No copy-paste clones.
+              </div>
+
+              <button
+                class="text-[14px] btn-animate font-medium font-primary rounded-full text-white leading-[24px] border text-[17px] h-[50px] px-[18px] bg-black"
+              >
+               <span class="block h-full flex justify-center items-center shrink-0">Buy Artifact</span><span class="block h-full flex justify-center items-center shrink-0">Buy Artifact</span>
+              </button>
+            </div>
+
+            <div class="grid-layout-three gap-[6px] grid grid-cols-12">
+              <div
+                class="col-span-4 card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] w-full overflow-hidden h-[300px] px-6 pt-6"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a8b69e28511e44efe_Product%20Features%201.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom p-6 space-y-[72px] bg-white">
+                  <p class="text-[20px] font-medium leading-[26px]">
+                    20+ Pages.<span class="faded-text">
+                      Hit the ground running with a variety of stylish pages to
+                      suit multiple purposes.</span
+                    >
+                  </p>
+
+                  <button
+                    class="px-6 border btn-dark btn-animate overflow-hidden rounded-full border-[#0000001a] h-[39px]  text-[14px] leading-[20px] "
+                  >
+                    <span class="block h-full flex justify-center items-center shrink-0">See Pages</span>
+                  <span class="block h-full flex justify-center items-center shrink-0">See Pages</span>
+                    
+                  </button>
+                </div>
+              </div>
+              <div
+                class="col-span-4 card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] flex flex-col justify-between w-full overflow-hidden h-[300px] px-6 pt-6"
+                >
+                  <img
+                    class="w-6/10 object-[center_top] mx-auto object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67d3593eed8697e7f3cc21d9_section-01.webp"
+                    alt=""
+                  />
+
+                  <img
+                    class="w-6/10 object-[center_top] mx-auto object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67d3593ec1379757d14945f4_section-02.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom p-6 space-y-[72px] bg-white">
+                  <p class="text-[20px] font-medium leading-[26px]">
+                    60+ Sections.<span class="faded-text">
+                      Build your own page layouts in moments with tons of
+                      hand-crafted sections.</span
+                    >
+                  </p>
+
+                  <button
+                    class="px-6 border btn-dark btn-animate overflow-hidden rounded-full border-[#0000001a] h-[39px]  text-[14px] leading-[20px]"
+                  >
+                  <span class="block h-full flex justify-center items-center shrink-0">Start Now</span>
+                  <span class="block h-full flex justify-center items-center shrink-0">Start Now</span>
+                    
+                  </button>
+                </div>
+              </div>
+              <div
+                class="col-span-4 card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] flex flex-col justify-between w-full overflow-hidden h-[300px] px-6 pt-6"
+                >
+                  <img
+                    class="w-full h-full object-[center_top] mx-auto object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67d359ce6b09fd09d127d54e_variables.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom p-6 space-y-[72px] bg-white">
+                  <p class="text-[20px] font-medium leading-[26px]">
+                    60+ Sections.<span class="faded-text">
+                      Build your own page layouts in moments with tons of
+                      hand-crafted sections.</span
+                    >
+                  </p>
+
+                  <button
+                    class="px-6 btn-dark btn-animate border rounded-full border-[#0000001a] h-[39px]  text-[14px] leading-[20px] overflow-hidden"
+                  >
+
+                    <span class="block h-full flex justify-center items-center shrink-0">Preview in Webflow</span>
+                  <span class="block h-full flex justify-center items-center shrink-0">Preview in Webflow</span>
+                    
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-cream">
+        <div class="container">
+          <div class="w-full section-spacing vertical-layout-gap">
+            <div class="w-full grid grid-cols-12 justify-between gap-[72px]">
+              <div class="col-span-6 h-[536px] space-y-[72px]">
+                <div class="top-content space-y-[24px]">
+                  <div
+                    class="tagline text-[14px] leading-[20px] opacity-[0.6] font-medium"
+                  >
+                    Figma file included
+                  </div>
+
+                  <h2 class="text-[56px] font-medium leading-[62px]">
+                    Take full control of the Artifact design
+                  </h2>
+
+                  <button
+                    class="text-[14px] btn-animate overflow-hidden border-black font-medium font-primary rounded-full text-white leading-[24px] border text-[17px] h-[50px] px-[18px] bg-black"
+                  >
+                  <span class="block h-full flex justify-center items-center shrink-0"> Request Access</span>
+
+                   <span class="block h-full flex justify-center items-center shrink-0"> Request Access</span>
+                   
+                  </button>
+                </div>
+
+                <div class="bottom-content space-y-[24px] max-w-6/10 w-full">
+                  <p class="text-[17px] font-medium font-medium leading-[24px]">
+                    Frictionless customization.
+                    <span class="faded-text">
+                      The Figma file matches Artifact’s Webflow variables,
+                      making your design workflow seamless.</span
+                    >
+                  </p>
+
+                  <p class="text-[17px] font-medium font-medium leading-[24px]">
+                    Prototype, polish, profit.
+                    <span class="faded-text">
+                      Impress clients sooner and streamline your path from
+                      concept to invoice.</span
+                    >
+                  </p>
+
+                  <button
+                    class="px-6 btn-dark btn-animate overflow-hidden border rounded-full border-[#0000001a] h-[39px]   text-[14px] leading-[20px] "
+                  >
+
+                   <span class="block h-full flex justify-center items-center shrink-0">View in Figma</span>
+                    <span class="block h-full flex justify-center items-center shrink-0">View in Figma</span>
+                  
+                    
+                  </button>
+                </div>
+              </div>
+              <div class="col-span-6 h-[536px] relative rounded-[6px]">
+                <div
+                  class="rounded-[6px] overflow-hidden rounded-[6px] w-full h-full"
+                >
+                  <div
+                    class="absolute inset-0 z-[12] pointer-events-none rounded-[6px] bg-[linear-gradient(135deg,#ff8308,#ff5043_50%,#392bd5)] h-auto"
+                  ></div>
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67c39603ab3ddc3074823a01_gradient-map-2.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="absolute inset-0 z-[12] pl-6 pt-6">
+                  <div class="w-full h-full">
+                    <img
+                      class="w-full h-full object-cover object-left"
+                      src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67d35a99502aaae71926364a_figma.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="w-full section-spacing vertical-layout-gap">
+            <div class="w-full flex items-start flex-col gap-5">
+              <h2 class="text-[40px] font-medium leading-[46px]">Home pages</h2>
+            </div>
+
+            <div class="grid-layout-three gap-[6px] grid grid-cols-12">
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5ae69d7e6183c9ffea_Home%201.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Home 1</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >General Purpose</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a5a1a3500709b490e_Home%202.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Home 2</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Consumer Focus</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5bc8e5903b1ba8f0d7_Home%203.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Home 3</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Enterprise Focus</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="w-full section-spacing vertical-layout-gap">
+            <div class="w-full flex items-start flex-col gap-5">
+              <h2 class="text-[40px] font-medium leading-[46px]">
+                Features pages
+              </h2>
+            </div>
+
+            <div class="grid-layout-three gap-[6px] grid grid-cols-12">
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a8b69e28511e44efe_Product%20Features%201.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Features 1
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Product deep-dive</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a0e617aef5fe1fb70_Product%20Features%202.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Features 2
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Software showcase</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5b9c2e266ae35be9ff_Product%20Features%203.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Features 3
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Multipurpose</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="w-full section-spacing vertical-layout-gap">
+            <div class="w-full flex items-start flex-col gap-5">
+              <h2 class="text-[40px] font-medium leading-[46px]">
+                About pages
+              </h2>
+            </div>
+
+            <div class="grid-layout-three gap-[6px] grid grid-cols-12">
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5ae25b1be3c52c9064_About%201.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">About 1</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Our Company</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5b48148f8d497048e1_About%202.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">About 2</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Culture & Careers</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a9730c3b0c99d7540_About%203.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">About 3</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Our Technology</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="w-full section-spacing vertical-layout-gap">
+            <div class="w-full flex items-start flex-col gap-5">
+              <h2 class="text-[40px] font-medium leading-[46px]">More pages</h2>
+            </div>
+
+            <div class="grid-layout-three gap-[12px] grid grid-cols-12">
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a947de12cbf9ee516_Customers.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Customers
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Showcase success</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a93a5f3113f71f5ab_Customer%20Story.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Customer Story
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >CMS Page</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5b9c2e266ae35be9fc_Pricing.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Pricing</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Static (Non e-com)</span
+                  >
+                </div>
+              </div>
+
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5b9c2e266ae35be9fc_Pricing.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Pricing</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Webflow E-Commerce</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5afb05b7cf71822ec7_Plan%20Single.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Pricing Plan
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >CMS Page</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5ada8ac5637eb72f5e_Request%20Demo.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Request Demo
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Lead Capture</span
+                  >
+                </div>
+              </div>
+
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5ae9f623d78ca3e372_Blog.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Blog</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >CMS Powered</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a4b5048859e9fe9e5_Blog%20Article.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Blog Single
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >CMS Page</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a171fc7d4aa6e1b1f_Career%20Single.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">
+                    Carrer Single
+                  </p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >CMS Page</span
+                  >
+                </div>
+              </div>
+
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5aa1639429379c9c92_Contact.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Contact</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >with contact form</span
+                  >
+                </div>
+              </div>
+              <div
+                class="col-span-4 space-y-6 p-6 bg-[#f6f4f1] card-wrapper shadow rounded-[4px] overflow-hidden"
+              >
+                <div
+                  class="card-top bg-[#e8e6e3] rounded-[6px] hover:p-3 transition-all duration-500 w-full overflow-hidden"
+                >
+                  <img
+                    class="w-full object-[center_top] h-full object-cover"
+                    src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67cfcd5a5a1a3500709b494b_Legal.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-bottom text-center">
+                  <p class="text-[17px] leading-[24px] font-medium">Legal</p>
+                  <span
+                    class="text-black opacity-[0.6] text-[17px] leading-[24px] font-medium"
+                    >Terms, Privacy etc.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-black">
+        <div class="container">
+          <div
+            class="w-full max-w-4xl mx-auto section-spacing vertical-layout-gap"
+          >
+            <div class="w-full mx-auto">
+              <div class="footer-top space-y-6">
+                <h2
+                  class="text-[56px] text-center font-medium leading-[62px] text-white"
+                >
+                  Transforming potential <br />
+                  into performance
+                </h2>
+
+                <div
+                  class="flex items-center justify-center font-medium text-white gap-2 opacity-60"
+                >
+                  <span class="text-[14px] leading-[20px] font-medium">
+                    Medium Rare
+                  </span>
+
+                  <div class="flex">
+                    <i class="ri-star-s-fill"></i>
+                    <i class="ri-star-s-fill"></i>
+                    <i class="ri-star-s-fill"></i>
+                    <i class="ri-star-s-fill"></i>
+                    <i class="ri-star-s-fill"></i>
+                  </div>
+
+                  <span class="text-[14px] leading-[20px]"> 200+ Reviews </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-12 gap-[6px]">
+              <div
+                class="col-span-6 flex flex-col justify-between min-h-[300px] rounded-[6px] bg-[#ffffff26] p-6"
+              >
+                <p class="font-medium text-[20px] text-white leading-[26px]">
+                  “Artifact had everything we needed to build a stunning website
+                  in no time. The attention to detail in this product is simply
+                  remarkable.”
+                </p>
+
+                <div class="profile flex gap-[9px] items-center">
+                  <div
+                    class="profile-wrapper size-10 overflow-hidden rounded-full bg-red-900"
+                  >
+                    <img
+                      class="w-full h-full"
+                      src="https://cdn.prod.website-files.com/67bd4583544503c3feb08305/67c39f8d7b1076c4b924c816_avatar-06.webp"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="user-content">
+                    <span class="text-[14px] block text-white leading-[20px]"
+                      >John B</span
+                    >
+                    <span
+                      class="text-[14px] text-white opacity-[0.6] leading-[20px]"
+                      >Product Lead</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-span-6 flex justify-center items-center min-h-[300px] rounded-[6px] footer-bg"
+              >
+                <button
+                  class="text-[14px] overflow-hidden btn-animate border-white font-medium font-primary rounded-full text-black leading-[24px] border text-[17px] h-[50px] px-[18px] bg-white"
+                >
+                  
+                   <span class="block h-full flex justify-center items-center shrink-0">Buy Artifact now </span>
+
+                     <span class="block h-full flex justify-center items-center shrink-0">Buy Artifact now </span>
+                </button>
+              </div>
+            </div>
+
+            <div class="footer-link flex justify-between">
+              <ul class="space-y-[9px]">
+                <li>Pages</li>
+                <li>Overview</li>
+                <li>Home 1</li>
+                <li>Home 2</li>
+                <li>Home 3</li>
+                <li>Features 1</li>
+                <li>Features 2</li>
+                <li>Features 3</li>
+                <li>Request Demo</li>
+              </ul>
+
+              <ul class="space-y-[9px]">
+                <li>More pages</li>
+                <li>About 1</li>
+                <li>About 2</li>
+                <li>About 3</li>
+                <li>Customer Stories</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>Legal</li>
+              </ul>
+
+              <ul class="space-y-[9px]">
+                <li>Information</li>
+                <li>Style Guide</li>
+                <li>Changelog</li>
+                <li>Licenses</li>
+                <li>More Templates</li>
+              </ul>
+
+              <ul class="space-y-[9px]">
+                <li>Support</li>
+                <li>+614 3029 1827</li>
+                <li>hello@website.com</li>
+              </ul>
+            </div>
+
+            <div
+              class="footer-bottom border-t flex items-center justify-between pt-6 border-[#fff3]"
+            >
+              <div class="flex items-center gap-6">
+                <img src="./assets/logo/logo-white.svg" alt="" />
+
+                <span
+                  class="copyright-text text-[14px] font-medium leading-[24px] text-white opacity-[0.6]"
+                >
+                  © Medium Rare powered by Webflow
+                </span>
+              </div>
+
+              <div
+                class="social-icon text-white space-x-[24px] opacity-[0.6] text-[24px]"
+              >
+                <i class="ri-instagram-line"></i>
+                <i class="ri-github-fill"></i>
+                <i class="ri-youtube-fill"></i>
+                <i class="ri-twitter-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
