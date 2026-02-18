@@ -151,3 +151,28 @@ body {
    transform: translateY(-100%);
 
 }
+
+
+
+@media (max-width:776px) {
+
+  .section-spacing {
+  padding-block: 60px;
+}
+.vertical-layout-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.section-spacing-y {
+  padding-block: 40px;
+}
+
+.container {
+  padding: 0 16px;
+ 
+}
+
+  
+}
